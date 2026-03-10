@@ -1,0 +1,109 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "React 学习笔记",
+      "summary": "记录学习 React 的一些心得。",
+      "content": "# React 简介\n\nReact 是一个用于构建用户界面的 **JavaScript 库**。\n\n## 特点\n- 组件化\n- 声明式\n- 高效\n\n```js\nfunction Hello() {\n  return <div>Hello</div>;\n}\n```",
+      "date": "2025-02-22",
+      "category": "生活"
+    },
+    {
+      "id": "2",
+      "title": "React 学习笔记",
+      "summary": "记录学习 React 的一些心得。",
+      "content": "React 是一个用于构建用户界面的 JavaScript 库。",
+      "date": "2025-02-22",
+      "category": "技术"
+    },
+    {
+      "id": "3",
+      "title": "Tailwind CSS 真好用",
+      "summary": "为什么我喜欢 Tailwind。",
+      "content": "Tailwind 提供了大量的工具类。",
+      "date": "2025-02-25",
+      "category": "技术"
+    },
+    {
+      "title": "论三角洲莽攻哲学",
+      "summary": "",
+      "content": "要想",
+      "date": "2026-03-06",
+      "id": "-dUvumV"
+    }
+  ],
+  "users": [],
+  "comments": [
+    {
+      "id": "1",
+      "postId": "2",
+      "author": "demo",
+      "content": "这是一条测试评论。",
+      "createdAt": "2025-03-05T10:30:00Z"
+    },
+    {
+      "id": "2",
+      "postId": "2",
+      "author": "demo",
+      "content": "第二条评论。",
+      "createdAt": "2025-03-05T11:00:00Z"
+    },
+    {
+      "id": "d9af",
+      "postId": "1",
+      "author": "a's'd'f",
+      "content": "啊手动阀",
+      "createdAt": "2026-03-05T02:09:06.388Z"
+    },
+    {
+      "id": "5520",
+      "postId": "1",
+      "author": "a's'd'f",
+      "content": "正确的",
+      "createdAt": "2026-03-05T02:09:18.603Z"
+    },
+    {
+      "id": "bb23",
+      "postId": "1",
+      "author": "阿斯顿·",
+      "content": "啊手动阀",
+      "createdAt": "2026-03-06T00:43:36.626Z"
+    },
+    {
+      "id": "8205",
+      "postId": "1",
+      "author": "阿斯顿·",
+      "content": "啊手动阀",
+      "createdAt": "2026-03-06T00:44:48.489Z"
+    },
+    {
+      "id": "fd41",
+      "postId": "1",
+      "author": "啊手动阀",
+      "content": "啊手动阀",
+      "createdAt": "2026-03-06T00:57:07.497Z"
+    },
+    {
+      "id": "52d9",
+      "postId": "1",
+      "author": "啊手动阀",
+      "content": "ASDF",
+      "createdAt": "2026-03-06T00:58:09.614Z"
+    },
+    {
+      "id": "e6a5",
+      "postId": "1",
+      "author": "啊手动阀",
+      "content": "啊手动阀",
+      "createdAt": "2026-03-06T01:00:29.826Z"
+    },
+    {
+      "postId": "1",
+      "author": "1234",
+      "content": "郭宁\n",
+      "createdAt": "2026-03-06T01:36:55.445Z",
+      "id": "gPP54wF"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
