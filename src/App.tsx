@@ -10,7 +10,7 @@ import PrivateRoute from './components/PrivateRoute';
 import EditPostPage from './pages/EditPostPage';
 // import { initialPosts } from './data/posts';
 
-const API_URL = '/api/posts';
+const API_URL = import.meta.env.VITE_API_URL || '/api';;
 
 export default function App() {
   const [posts, setPosts] = useState<Post[]>([]);

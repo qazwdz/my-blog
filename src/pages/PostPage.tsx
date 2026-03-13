@@ -13,7 +13,7 @@ interface PostPageProps {
     loading?: boolean;
 }
 
-const API_URL = '/api';
+const API_URL = import.meta.env.VITE_API_URL || '/api';
 
 export default function PostPage({ posts, loading }: PostPageProps) {
     // React Router提供的自定义Hook
