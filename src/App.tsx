@@ -21,7 +21,7 @@ export default function App() {
   const fetchPosts = async () => {
     try {
       setLoading(true);
-      const reponse = await axios.get<Post[]>(API_URL);
+      const reponse = await axios.get<Post[]>(`${API_URL}/posts`);
       setPosts(reponse.data);
       setError(null);
     } catch (err) {      
